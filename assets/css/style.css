@@ -1,7 +1,6 @@
-/* GLOBAL STYLES
--------------------------------------------------- */
-/* Padding below the footer and lighter body text */
+/* GLOBAL STYLES ( estilo global) -------------------------------------------------- */
 
+/* Padding below the footer and lighter body text */
 body {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -9,8 +8,7 @@ body {
 }
 
 
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
+/* CUSTOMIZE THE CAROUSEL (personalizacion del carrusel) -------------------------------------------------- */
 
 /* Carousel base class */
 .carousel {
@@ -35,8 +33,7 @@ body {
 }
 
 
-/* MARKETING CONTENT
--------------------------------------------------- */
+/* contenedor de marketing -------------------------------------------------- */
 
 /* Center align the text within the three columns below the carousel */
 .marketing .col-lg-4 {
@@ -54,8 +51,7 @@ body {
 /* rtl:end:ignore */
 
 
-/* Featurettes
-------------------------- */
+/* reportajes ------------------------- */
 
 .featurette-divider {
   margin: 5rem 0; /* Space out the Bootstrap <hr> more */
@@ -70,10 +66,10 @@ body {
 }
 
 
-/* RESPONSIVE CSS
--------------------------------------------------- */
+/* RESPONSIVE CSS -------------------------------------------------- */
 
 @media (min-width: 40em) {
+    
   /* Bump up size of carousel content */
   .carousel-caption p {
     margin-bottom: 1.25rem;
@@ -89,5 +85,19 @@ body {
 @media (min-width: 62em) {
   .featurette-heading {
     margin-top: 7rem;
+  }
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
   }
 }
